@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Benutzerkonto erstellen</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Benutzername</label>
+                <input type="text" placeholder="marko23" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Fehlermeldung</small>
+            </div>
+            <div class="form-control">
+                <label for="username">E-Mail</label>
+                <input type="email" placeholder="marko23@.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Fehlermeldung</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Passwort</label>
+                <input type="password" placeholder="Passwort" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Fehlermeldung</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Passwort bestätigen</label>
+                <input type="password" placeholder="Passwort wiederholen" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Fehlermeldung</small>
+            </div>
+            <button>Einreichen</button>
+        </form>
+    </div>
+    
+    
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
